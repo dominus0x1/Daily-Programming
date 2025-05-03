@@ -1,0 +1,380 @@
+# 6-Month MERN Stack Beginner Roadmap (180 Days)
+
+This 180-day roadmap is designed for a beginner learning web development with a focus on the MERN stack (MongoDB, Express.js, React, Node.js). It builds on Day 1 HTML knowledge, follows a beginner-friendly and flexible order (inspired by `frontend.pdf`), and integrates front-end, back-end, and professional skills. Daily tasks include topics, practice, projects, and readings from *The Clean Coder*, *Clean Code*, *Clean Architecture*, *A Hacker’s Mind*, *Eloquent JavaScript*, and *Grokking Algorithms*. Each day assumes 2-3 hours of learning, with weekly catch-up days.
+
+## Phase 1: Front-End Foundations (Days 1-30)
+Build a strong foundation in HTML, CSS, and tools, with professional habits from *The Clean Coder*.
+
+- **Day 1: HTML Basics** (Completed)
+  - Topics: HTML syntax, document structure, text elements (`<h1>`, `<p>`), links (`<a>`), images (`<img>`), lists (`<ul>`), semantics (`<header>`, `<main>`).
+  - Practice: Build a simple webpage with text, links, images.
+  - Tools: VS Code, browser.
+- **Day 2: HTML Forms**
+  - Topics: `<form>`, `<input>` (text, radio, checkbox), `<button>`, `<label>`, attributes (`action`, `method`).
+  - Practice: Create a contact form; read *The Clean Coder* Ch. 1 (Professionalism).
+  - Project: Start a personal bio page with a form.
+  - Tools: VS Code, browser.
+- **Day 3: HTML Tables and Semantics**
+  - Topics: `<table>`, `<tr>`, `<th>`, `<td>`; advanced semantics (`<article>`, `<section>`).
+  - Practice: Build a table (e.g., schedule); restructure bio page with semantics.
+  - Tools: VS Code, W3C Validator.
+- **Day 4: HTML Metadata and Accessibility**
+  - Topics: `<meta>` (SEO, charset), `<link>` (favicon), `alt` attributes, ARIA basics.
+  - Practice: Add metadata to bio page; validate accessibility.
+  - Project: Finalize bio page (text, form, table, semantics).
+  - Tools: VS Code, browser.
+- **Day 5: CSS Basics**
+  - Topics: CSS syntax, selectors (element, class, ID), properties (`color`, `font-size`).
+  - Practice: Style bio page (colors, fonts); read *The Clean Coder* Ch. 2 (Saying No).
+  - Tools: VS Code, browser developer tools.
+- **Day 6: CSS Box Model**
+  - Topics: Margin, padding, border, `box-sizing`.
+  - Practice: Add spacing and borders to bio page.
+  - Tools: VS Code, browser.
+- **Day 7: Review/Catch-Up**
+  - Topics: Revisit HTML/CSS; fix bio page issues.
+  - Practice: Experiment with new HTML elements or CSS properties.
+- **Day 8: CSS Layout (Flexbox)**
+  - Topics: `display: flex`, flex properties (`justify-content`, `align-items`).
+  - Practice: Create a centered layout for bio page.
+  - Tools: VS Code, browser.
+- **Day 9: CSS Layout (Positioning)**
+  - Topics: `position` (relative, absolute, fixed), z-index.
+  - Practice: Add a fixed header to bio page.
+  - Tools: VS Code, browser.
+- **Day 10: CLI Basics**
+  - Topics: CLI commands (`cd`, `ls`/`dir`, `mkdir`, `touch`/`echo.`).
+  - Practice: Navigate project folder; create files via CLI; read *The Clean Coder* Ch. 3 (Saying Yes).
+  - Tools: Terminal/PowerShell, VS Code.
+- **Day 11: Git Basics**
+  - Topics: `git init`, `git add`, `git commit`, GitHub setup.
+  - Practice: Create a Git repo for bio page; push to GitHub.
+  - Tools: Git, GitHub, CLI.
+- **Day 12: Responsive CSS**
+  - Topics: Media queries, relative units (`vw`, `rem`, `%`).
+  - Practice: Make bio page mobile-friendly.
+  - Project: Finalize responsive bio page.
+  - Tools: VS Code, browser developer tools.
+- **Day 13: CSS Practice**
+  - Topics: Pseudo-classes (`:hover`), transitions.
+  - Practice: Add hover effects to bio page links/buttons.
+  - Tools: VS Code, browser.
+- **Day 14: Review/Catch-Up**
+  - Topics: Revisit CSS layouts; read *The Clean Coder* Ch. 4 (Coding).
+  - Practice: Build a new webpage (e.g., resume) using HTML/CSS.
+- **Day 15: VS Code Efficiency**
+  - Topics: VS Code shortcuts, extensions (Live Server, Prettier).
+  - Practice: Set up Prettier for HTML/CSS; use Live Server.
+  - Tools: VS Code.
+- **Day 16: Browser Developer Tools**
+  - Topics: Inspect elements, debug CSS, view network requests.
+  - Practice: Debug bio page layout issues.
+  - Tools: Browser developer tools.
+- **Day 17: Project: Portfolio Page**
+  - Topics: Combine HTML/CSS for a multi-section portfolio.
+  - Practice: Build a portfolio with about, projects, and contact sections.
+  - Tools: VS Code, Git, GitHub.
+- **Day 18: Portfolio Styling**
+  - Topics: Advanced CSS (gradients, shadows).
+  - Practice: Enhance portfolio with visual effects.
+  - Tools: VS Code, browser.
+- **Day 19: Portfolio Responsiveness**
+  - Topics: Test and refine responsive design.
+  - Practice: Ensure portfolio works on mobile/desktop.
+  - Tools: Browser developer tools.
+- **Day 20: Git Branching**
+  - Topics: `git branch`, `git merge`, pull requests.
+  - Practice: Create a branch for portfolio updates; merge to main.
+  - Tools: Git, GitHub, CLI.
+- **Day 21: Review/Catch-Up**
+  - Topics: Revisit HTML/CSS/Git; read *The Clean Coder* Ch. 5 (Test-Driven Development).
+  - Practice: Add a new feature to portfolio (e.g., a gallery).
+- **Days 22-25: JavaScript Basics**
+  - Topics: Variables, data types, functions, DOM manipulation; start *Eloquent JavaScript* Ch. 1-2.
+  - Practice: Add interactivity to portfolio (e.g., toggle dark mode).
+  - Tools: VS Code, browser.
+- **Day 26: JavaScript Events**
+  - Topics: Event listeners (`click`, `input`), event objects.
+  - Practice: Create a form with real-time validation.
+  - Tools: VS Code, browser.
+- **Day 27: JavaScript Logic**
+  - Topics: Conditionals, loops, scope; *Eloquent JavaScript* Ch. 3.
+  - Practice: Build a simple calculator webpage.
+  - Tools: VS Code, browser.
+- **Day 28: Project: Interactive Portfolio**
+  - Topics: Apply JS to portfolio (e.g., dynamic project list).
+  - Practice: Add a filterable project section.
+  - Tools: VS Code, Git, GitHub.
+- **Day 29: JavaScript Practice**
+  - Topics: Error handling, debugging JS; *Eloquent JavaScript* Ch. 4.
+  - Practice: Fix bugs in portfolio interactivity.
+  - Tools: Browser developer tools.
+- **Day 30: Review/Catch-Up**
+  - Topics: Revisit JS basics; finalize portfolio.
+  - Practice: Deploy portfolio to GitHub Pages.
+
+## Phase 2: JavaScript and Algorithms (Days 31-60)
+Master JavaScript and problem-solving with *Eloquent JavaScript* and *Grokking Algorithms*.
+
+- **Days 31-34: JavaScript Arrays and Objects**
+  - Topics: Arrays, `map`, `filter`, objects, JSON; *Eloquent JavaScript* Ch. 5-6.
+  - Practice: Build a todo list webpage with dynamic rendering.
+  - Tools: VS Code, browser.
+- **Day 35: Algorithms Intro**
+  - Topics: Big O notation, basic algorithms (search, sort); *Grokking Algorithms* Ch. 1-2.
+  - Practice: Implement binary search in JS.
+  - Tools: VS Code.
+- **Days 36-39: JavaScript Advanced**
+  - Topics: Closures, `this`, async/await, promises; *Eloquent JavaScript* Ch. 7-9.
+  - Practice: Fetch data from a public API (e.g., weather API).
+  - Tools: VS Code, browser.
+- **Day 40: Algorithms Practice**
+  - Topics: Recursion, divide-and-conquer; *Grokking Algorithms* Ch. 3-4.
+  - Practice: Solve recursion problems (e.g., factorial).
+  - Tools: VS Code.
+- **Day 41: Project: Todo App**
+  - Topics: Combine HTML, CSS, JS for a todo app.
+  - Practice: Add CRUD functionality (create, read, update, delete).
+  - Tools: VS Code, Git, GitHub.
+- **Days 42-45: JavaScript Modules and Tools**
+  - Topics: ES modules, npm, Webpack basics; *Eloquent JavaScript* Ch. 10.
+  - Practice: Modularize todo app code; init npm project.
+  - Tools: VS Code, npm, CLI.
+- **Day 46: Algorithms Practice**
+  - Topics: Graphs, greedy algorithms; *Grokking Algorithms* Ch. 5-6.
+  - Practice: Solve graph traversal problems.
+  - Tools: VS Code.
+- **Day 47: Review/Catch-Up**
+  - Topics: Revisit JS and algorithms; read *A Hacker’s Mind* Ch. 1-2 (hacking mindset).
+  - Practice: Refactor todo app for better structure.
+- **Days 48-51: JavaScript Testing**
+  - Topics: Unit testing with Jest, TDD basics; *The Clean Coder* Ch. 6 (Practicing).
+  - Practice: Write tests for todo app functions.
+  - Tools: VS Code, Jest, npm.
+- **Day 52: Project: Weather App**
+  - Topics: Build a weather app with API integration.
+  - Practice: Fetch and display weather data.
+  - Tools: VS Code, Git, GitHub.
+- **Days 53-56: JavaScript Practice**
+  - Topics: Higher-order functions, event delegation; *Eloquent JavaScript* Ch. 11-12.
+  - Practice: Optimize weather app performance.
+  - Tools: VS Code, browser.
+- **Day 57: Algorithms Practice**
+  - Topics: Dynamic programming; *Grokking Algorithms* Ch. 7.
+  - Practice: Solve knapsack problem.
+  - Tools: VS Code.
+- **Day 58: Project: Refactor Weather App**
+  - Topics: Apply clean code principles; *Clean Code* Ch. 1-2.
+  - Practice: Refactor weather app for readability.
+  - Tools: VS Code, Git.
+- **Day 59: Review/Catch-Up**
+  - Topics: Revisit JS and algorithms; *A Hacker’s Mind* Ch. 3-4.
+  - Practice: Solve coding challenges on LeetCode.
+- **Day 60: JavaScript Milestone**
+  - Topics: Build a small JS game (e.g., tic-tac-toe).
+  - Practice: Deploy game to GitHub Pages.
+  - Tools: VS Code, GitHub.
+
+## Phase 3: React Front-End (Days 61-90)
+Learn React for MERN’s front-end, applying *Clean Code* principles.
+
+- **Days 61-64: React Basics**
+  - Topics: React setup (Create React App), components, JSX, props; *Clean Code* Ch. 3-4.
+  - Practice: Build a static React portfolio.
+  - Tools: VS Code, Node.js, npm.
+- **Days 65-68: React State and Events**
+  - Topics: `useState`, `useEffect`, event handling, lists.
+  - Practice: Create a counter and todo list in React.
+  - Tools: VS Code, browser.
+- **Day 69: React Routing**
+  - Topics: React Router, multi-page apps.
+  - Practice: Add navigation to portfolio.
+  - Tools: VS Code, npm.
+- **Day 70: Review/Catch-Up**
+  - Topics: Revisit React basics; *A Hacker’s Mind* Ch. 5-6.
+  - Practice: Fix bugs in portfolio.
+- **Days 71-74: React Advanced**
+  - Topics: Context API, custom hooks, forms; *Clean Code* Ch. 5-6.
+  - Practice: Build a form with validation in React.
+  - Tools: VS Code, browser.
+- **Days 75-78: Project: React Todo App**
+  - Topics: Combine React features for a full-featured todo app.
+  - Practice: Add local storage for persistence.
+  - Tools: VS Code, Git, GitHub.
+- **Day 79: React Testing**
+  - Topics: Testing React with Jest/React Testing Library.
+  - Practice: Write tests for todo app components.
+  - Tools: VS Code, Jest, npm.
+- **Day 80: Algorithms Practice**
+  - Topics: Advanced algorithms (trees, heaps); *Grokking Algorithms* Ch. 8-9.
+  - Practice: Solve tree traversal problems.
+  - Tools: VS Code.
+- **Days 81-84: React Styling**
+  - Topics: CSS modules, Tailwind CSS, styled-components.
+  - Practice: Style todo app with Tailwind.
+  - Tools: VS Code, npm.
+- **Day 85: Project: React Blog**
+  - Topics: Build a blog with React Router and dynamic content.
+  - Practice: Add markdown support for posts.
+  - Tools: VS Code, Git, GitHub.
+- **Day 86: Review/Catch-Up**
+  - Topics: Revisit React; *Clean Code* Ch. 7-8.
+  - Practice: Optimize blog performance.
+- **Days 87-90: React Capstone**
+  - Topics: Build a complex React app (e.g., e-commerce dashboard).
+  - Practice: Deploy to Vercel.
+  - Tools: VS Code, GitHub, Vercel.
+
+## Phase 4: Back-End Foundations (Days 91-120)
+Learn Node.js, Express.js, and MongoDB, with *Clean Architecture*.
+
+- **Days 91-94: Node.js Basics**
+  - Topics: Node.js setup, modules, `http` server; *Clean Architecture* Ch. 1-2.
+  - Practice: Build a simple Node server.
+  - Tools: VS Code, Node.js, CLI.
+- **Days 95-98: Express.js Basics**
+  - Topics: Express setup, routes, middleware, REST APIs.
+  - Practice: Create a basic API (e.g., `/users`).
+  - Tools: VS Code, Postman.
+- **Day 99: Algorithms Practice**
+  - Topics: Advanced algorithms (graphs revisited); *Grokking Algorithms* Ch. 10.
+  - Practice: Solve shortest path problems.
+  - Tools: VS Code.
+- **Day 100: Review/Catch-Up**
+  - Topics: Revisit Node/Express; *A Hacker’s Mind* Ch. 7-8.
+  - Practice: Refactor API code.
+- **Days 101-104: MongoDB Basics**
+  - Topics: MongoDB setup (Atlas), collections, CRUD; *Clean Architecture* Ch. 3-4.
+  - Practice: Store/retrieve data (e.g., todos).
+  - Tools: VS Code, MongoDB, CLI.
+- **Days 105-108: Express and MongoDB**
+  - Topics: Connect Express to MongoDB, RESTful APIs.
+  - Practice: Build a todo API with MongoDB.
+  - Tools: VS Code, Postman, MongoDB.
+- **Day 109: Back-End Testing**
+  - Topics: Test APIs with Jest/Supertest.
+  - Practice: Write tests for todo API.
+  - Tools: VS Code, Jest, npm.
+- **Day 110: Project: Blog API**
+  - Topics: Build a REST API for a blog.
+  - Practice: Support CRUD for posts.
+  - Tools: VS Code, Git, GitHub.
+- **Days 111-114: Authentication**
+  - Topics: JWT, bcrypt, user authentication.
+  - Practice: Add login/register to blog API.
+  - Tools: VS Code, Postman.
+- **Day 115: Algorithms Practice**
+  - Topics: Algorithm optimization; *Grokking Algorithms* Ch. 11.
+  - Practice: Solve coding challenges.
+  - Tools: VS Code.
+- **Days 116-119: Project: E-Commerce API**
+  - Topics: Build a complex API (products, users).
+  - Practice: Add cart functionality.
+  - Tools: VS Code, Git, MongoDB.
+- **Day 120: Review/Catch-Up**
+  - Topics: Revisit back-end; *Clean Architecture* Ch. 5-6.
+  - Practice: Deploy API to Render.
+
+## Phase 5: MERN Integration (Days 121-150)
+Combine front-end and back-end for full-stack MERN apps.
+
+- **Days 121-124: MERN Setup**
+  - Topics: Connect React to Express/MongoDB, fetch API data.
+  - Practice: Build a simple MERN todo app.
+  - Tools: VS Code, Git, MongoDB.
+- **Days 125-128: Project: MERN Blog**
+  - Topics: Full-stack blog with React front-end, Express/MongoDB back-end.
+  - Practice: Support user authentication.
+  - Tools: VS Code, GitHub, Postman.
+- **Day 129: Algorithms Practice**
+  - Topics: Review key algorithms; *Grokking Algorithms* review.
+  - Practice: Solve interview-style problems.
+  - Tools: VS Code.
+- **Day 130: Review/Catch-Up**
+  - Topics: Revisit MERN; *A Hacker’s Mind* Ch. 9-end.
+  - Practice: Optimize blog app.
+- **Days 131-134: MERN Authentication**
+  - Topics: Secure MERN app with JWT, protected routes.
+  - Practice: Add auth to blog app.
+  - Tools: VS Code, Postman.
+- **Days 135-139: Project: MERN E-Commerce**
+  - Topics: Build a full-stack e-commerce app.
+  - Practice: Add cart, checkout, and user profiles.
+  - Tools: VS Code, Git, MongoDB.
+- **Day 140: MERN Testing**
+  - Topics: End-to-end testing for MERN apps.
+  - Practice: Test e-commerce app.
+  - Tools: VS Code, Jest, Cypress.
+- **Days 141-144: Deployment**
+  - Topics: Deploy MERN app (Vercel for front-end, Render for back-end).
+  - Practice: Deploy e-commerce app.
+  - Tools: VS Code, GitHub, Vercel, Render.
+- **Day 145: Algorithms Practice**
+  - Topics: Mock interview problems.
+  - Practice: Solve LeetCode medium problems.
+  - Tools: VS Code.
+- **Days 146-149: Project: MERN Capstone**
+  - Topics: Build a custom MERN app (e.g., task manager, social app).
+  - Practice: Add unique features (e.g., real-time chat).
+  - Tools: VS Code, Git, MongoDB.
+- **Day 150: Review/Catch-Up**
+  - Topics: Revisit MERN; *Clean Architecture* Ch. 7-8.
+  - Practice: Polish capstone project.
+
+## Phase 6: Advanced Topics and Career Prep (Days 151-180)
+Refine skills, explore advanced topics, and prepare for jobs.
+
+- **Days 151-154: Advanced React**
+  - Topics: Redux, React Query, performance optimization.
+  - Practice: Add Redux to capstone project.
+  - Tools: VS Code, npm.
+- **Days 155-158: Advanced Back-End**
+  - Topics: WebSockets, GraphQL, microservices; *Clean Architecture* Ch. 9-end.
+  - Practice: Add real-time features to capstone.
+  - Tools: VS Code, Postman.
+- **Day 159: Algorithms Practice**
+  - Topics: Advanced interview problems.
+  - Practice: Solve LeetCode hard problems.
+  - Tools: VS Code.
+- **Days 160-163: Portfolio Refinement**
+  - Topics: Polish portfolio with MERN projects.
+  - Practice: Add project descriptions and demos.
+  - Tools: VS Code, GitHub Pages.
+- **Days 164-167: Job Prep**
+  - Topics: Resume building, LinkedIn profile, mock interviews.
+  - Practice: Practice behavioral and technical questions.
+  - Tools: VS Code, LeetCode.
+- **Day 168: Review/Catch-Up**
+  - Topics: Revisit advanced topics; *Clean Code* Ch. 9-end.
+  - Practice: Finalize portfolio.
+- **Days 169-172: Open-Source Contribution**
+  - Topics: Contribute to GitHub projects.
+  - Practice: Submit a pull request to a MERN repo.
+  - Tools: Git, GitHub, CLI.
+- **Days 173-176: Final Project**
+  - Topics: Build a production-ready MERN app.
+  - Practice: Add CI/CD with GitHub Actions.
+  - Tools: VS Code, GitHub, Vercel.
+- **Day 177: Algorithms Practice**
+  - Topics: Comprehensive algorithm review.
+  - Practice: Solve mixed LeetCode problems.
+  - Tools: VS Code.
+- **Days 178-180: Career Launch**
+  - Topics: Apply for jobs, network, plan next steps (e.g., TypeScript, Next.js).
+  - Practice: Deploy final project; update portfolio.
+  - Tools: VS Code, LinkedIn, GitHub.
+
+## Notes
+- **Pace**: 2-3 hours daily; use catch-up days for flexibility.
+- **Projects**: Build 8+ projects (bio page, portfolio, todo app, weather app, blog, e-commerce, capstone).
+- **Books**:
+  - *The Clean Coder*: Phase 1 for professionalism.
+  - *Clean Code*: Phases 2-3 for code quality.
+  - *Clean Architecture*: Phase 4 for system design.
+  - *A Hacker’s Mind*: Phases 2-5 for creative thinking.
+  - *Eloquent JavaScript*: Phase 2 for JS mastery.
+  - *Grokking Algorithms*: Phases 2-6 for problem-solving.
+- **Practice**: Daily coding (freeCodeCamp, LeetCode), book exercises, project work.
+- **Tools**: Git (Day 11), CLI (Day 10), npm (Day 42), VS Code (Day 1), browser tools (Day 16).
+- **Resources**: freeCodeCamp, W3Schools, MDN, The Net Ninja, MongoDB University.
+- **Flexibility**: Revisit topics as needed; extend to 240 days if deeper mastery is desired.
