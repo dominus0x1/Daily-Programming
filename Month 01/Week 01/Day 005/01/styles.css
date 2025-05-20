@@ -21,6 +21,10 @@ nav ul {
 nav ul li {
   background-color: bisque;
 }
+nav ul li a {
+  background-color: rgb(147, 147, 176);
+  text-decoration: none;
+}
 main {
   background-color: teal;
 }
