@@ -47,3 +47,6 @@ footer {
 p {
   background-color: darkturquoise;
 }
+table {
+  border: 2px solid #333;
+}
