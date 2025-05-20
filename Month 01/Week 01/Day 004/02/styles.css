@@ -17,3 +17,24 @@ nav ul {
 nav ul li {
   background-color: bisque;
 }
+main {
+  background-color: teal;
+}
+article {
+  background-color: thistle;
+}
+aside {
+  background-color: crimson;
+}
+section {
+  background-color: darkcyan;
+}
+card {
+  background-color: darkorange;
+}
+footer {
+  background-color: darkgrey;
+}
+p {
+  background-color: darkturquoise;
+}
