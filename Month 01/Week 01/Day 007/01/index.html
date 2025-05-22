@@ -66,6 +66,7 @@
         </ul>
       </section>
       <form role="form" action="/submit" method="POST">
+        <p id="name-help">Enter your full name.</p>
         <label for="name">Name:</label>
         <input
           type="text"
@@ -74,7 +75,6 @@
           aria-describedby="name-help"
           required
         />
-        <p id="name-help">Enter your full name.</p>
         <div aria-live="polite" id="error"></div>
         <button type="submit" tabindex="0" aria-label="Submit contact form">
           Submit
