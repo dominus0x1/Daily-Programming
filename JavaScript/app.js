@@ -37,11 +37,12 @@
 // }
 // console.log(min(a, b))
 
-// Recursion
-function min(a, b) {
-    if (a < b) {
-        return a;
-    } else {
-        return b;
-    }
-}
+// // Recursion
+// function min(a, b) {
+//     if (a < b) {
+//         return a;
+//     } else {
+//         return b;
+//     }
+// }
+
