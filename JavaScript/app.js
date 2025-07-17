@@ -29,10 +29,19 @@
 //     console.log(row);
 // }
 
-// Minimum
-const a = 10;
-const b = 5;
+// // Minimum
+// const a = 10;
+// const b = 5;
+// function min(a, b) {
+//     return a < b ? a : b;
+// }
+// console.log(min(a, b))
+
+// Recursion
 function min(a, b) {
-    return a < b ? a : b;
+    if (a < b) {
+        return a;
+    } else {
+        return b;
+    }
 }
-console.log(min(a, b))
