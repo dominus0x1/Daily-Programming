@@ -53,3 +53,9 @@ function minPrompted() {
     console.log(min(a, b));
 }
 
+// Bean Counting
+function countBeans(arr) {
+    return arr.reduce((count, item) => {
+        return count + (item === "bean" ? 1 : 0);
+    }, 0);
+}
