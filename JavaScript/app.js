@@ -46,12 +46,12 @@
 //     }
 // }
 
-// Recursion with prompting numbers
-function minPrompted() {
-    const a = parseInt(prompt("Enter the first number:"));
-    const b = parseInt(prompt("Enter the second number:"));
-    console.log(min(a, b));
-}
+// // Recursion with prompting numbers
+// function minPrompted() {
+//     const a = parseInt(prompt("Enter the first number:"));
+//     const b = parseInt(prompt("Enter the second number:"));
+//     console.log(min(a, b));
+// }
 
 // Bean Counting
 function countBeans(arr) {
